@@ -1,0 +1,18 @@
+#avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 200px;
+  background-color: orange;
+}
+
+#coin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: lightblue;
+}
