@@ -17,8 +17,10 @@ document.addEventListener("keydown", (event) => {
   console.log(event.key);
   if (event.key === "ArrowRight") {
     avatar.style.left = `${avatar.offsetLeft + 50}px`;
+    avatar.style.transform = "scaleX(1)";
   } else if (event.key === "ArrowLeft") {
     avatar.style.left = `${avatar.offsetLeft - 50}px`;
+    avatar.style.transform = "scaleX(-1)";
   } else if (event.key === "ArrowUp") {
     avatar.style.top = `${avatar.offsetTop - 50}px`;
   } else if (event.key === "ArrowDown") {

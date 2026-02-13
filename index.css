@@ -4,7 +4,6 @@
   left: 0;
   width: 100px;
   height: 200px;
-  background-color: orange;
 }
 
 #coin {
@@ -14,5 +13,4 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: lightblue;
 }
